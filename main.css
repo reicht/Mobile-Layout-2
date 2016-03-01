@@ -3,9 +3,9 @@ section{
 }
 
 div{
-  height: 2em;
-  background-color: yellow;
-  margin: 1em auto 1em auto;
+  height: 1em;
+  background-color: #616E7F;
+  margin: .5em auto .5em auto;
 }
 
 footer{
@@ -44,7 +44,33 @@ li{
   background-color: #1E8CBE;
   margin: 0em;
   width: 100%;
+  height: 3em;
+}
+
+.top-logo{
+  display: block;
+  float: left;
   height: 2em;
+  width: 2em;
+  background-color: white;
+  margin: .5em .5em .5em 1em;
+}
+
+.top-name{
+  display: block;
+  float: left;
+  height: 2em;
+  width: 8em;
+  background-color: white;
+  margin: .5em .5em .5em .5em;
+}
+
+.top-right-button{
+  float: right;
+  height: 3em;
+  width: 5em;
+  margin: 0 0 0 0;
+  background-color: #0070A4;
 }
 
 .create-button{
@@ -65,7 +91,28 @@ li{
 .icon-holder{
   background-color: white;
   height: 4em;
-  width: 16em;
+  width: 18em;
+}
+
+.icon-padder{
+  margin: 0 0 0 0;
+  height: 3em;
+  width: 4em;
+  background-color: white;
+  padding: .75em 1em 0 0;
+}
+
+.icon-held{
+  height: 3.25em;
+  width: 3.0em;
+  background-color: #616E7F;
+}
+
+.icon-text{
+  float: right;
+  height: 3.5em;
+  width: 14em;
+  margin: 0 .20em 0 0;
 }
 
 .grey-divider{
@@ -76,12 +123,32 @@ li{
 
 .lower-backing{
   background-color: #D1D3D7;
-  padding: 1em .5em;
+  padding: .5em .5em;
 }
 
 .feature-boxes{
   background-color: white;
-  height: 12em;
+  height: 10em;
+  padding: 1em 1em 1em 1em;
+  margin: 1em auto 2em auto;
+}
+
+.feature-icon{
+  display: block;
+  height: 4em;
+  width: 4em;
+  background-color: #C7D2D8;
+  margin: 0 auto 0 auto;
+}
+
+.feature-name{
+  background-color: #C7D2D8;
+  height: 1.25em;
+}
+
+.feature-text{
+  background-color: #C7D2D8;
+  height: 2.5em;
 }
 
 .black-boot{
@@ -98,7 +165,6 @@ li{
   text-align: center;
 
 }
-
 
 .bottom-image{
   background-color: white;
