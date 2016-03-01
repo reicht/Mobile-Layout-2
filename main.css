@@ -58,7 +58,7 @@ li{
   background-color: white;
   height: 1em;
   width: 2em;
-  margin: 2.5em auto 3.5em auto;
+  margin: 10em auto 3.5em auto;
 
 }
 
@@ -103,5 +103,6 @@ li{
 .bottom-image{
   background-color: white;
   width: 10em;
-  margin: 2em auto;
+  margin: 2em auto .5em auto;
+  height: 1.5em;
 }
