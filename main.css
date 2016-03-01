@@ -1,0 +1,60 @@
+section{
+  height: 15em;
+  width: 7em;
+  padding: 1em;
+  background-color: red;
+}
+
+div{
+  height: 2em;
+  width: 4em;
+  background-color: yellow;
+  margin: .5em auto .5em auto;
+}
+
+footer{
+  height: 2em;
+  width: 7em;
+  background-color: blue;
+}
+
+.main-backing{
+  background-color: #344051;
+}
+
+.top-bar{
+  background-color: #1E8CBE;
+}
+
+.create-button{
+  background-color: #1E8CBE;
+}
+
+.toggle-arrow{
+  background-color: white;
+}
+
+.icon-holder{
+  background-color: white;
+}
+
+.grey-divider{
+  background-color: #E8F0F5;
+
+}
+
+.lower-backing{
+  background-color: #D1D3D7;
+}
+
+.feature-boxes{
+  background-color: white;
+}
+
+.black-boot{
+  background-color: black;
+}
+
+.bottom-image{
+  background-color: white;
+}
