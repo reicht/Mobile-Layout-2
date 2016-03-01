@@ -4,7 +4,6 @@ section{
 
 div{
   height: 2em;
-  width: 5em;
   background-color: yellow;
   margin: 1em auto 1em auto;
 }
@@ -29,6 +28,11 @@ h2{
   font-weight: normal;
   margin: 1em 2em auto 2em;
   text-align: center;
+}
+
+li{
+  display: inline-block;
+  margin: .5em;
 }
 
 .main-backing{
@@ -66,21 +70,38 @@ h2{
 
 .grey-divider{
   background-color: #E8F0F5;
+  height: 10em;
 
 }
 
 .lower-backing{
   background-color: #D1D3D7;
+  padding: 1em .5em;
 }
 
 .feature-boxes{
   background-color: white;
+  height: 12em;
 }
 
 .black-boot{
   background-color: black;
+  padding: 1em;
 }
+
+.bottom-text{
+  color: white;
+  display: block;
+  height: 1em;
+  margin: .5em auto;
+  font-size: 10px;
+  text-align: center;
+
+}
+
 
 .bottom-image{
   background-color: white;
+  width: 10em;
+  margin: 2em auto;
 }
