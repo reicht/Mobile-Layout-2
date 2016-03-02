@@ -59,26 +59,43 @@ li{
 .top-name{
   display: block;
   float: left;
-  height: 2em;
-  width: 8em;
-  background-color: white;
+  height: 1em;
+  background-color: #118BC0;
   margin: .5em .5em .5em .5em;
+  padding: .5em;
+  color: white;
 }
 
-.top-right-button{
+.login-button{
   float: right;
-  height: 3em;
-  width: 5em;
+  height: 2em;
+  width: 4em;
   margin: 0 0 0 0;
   background-color: #0070A4;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: .75em;
+
 }
 
 .create-button{
   background-color: #1E8CBE;
-  width: 12em;
-  height: 3em;
+  width: 10em;
+  height: 1em;
   margin: 1em auto 1em auto;
+  text-align: center;
+  padding: 1em
+
 }
+
+
+.cw-button{
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+}
+
 
 .toggle-arrow{
   background-color: white;
@@ -117,8 +134,15 @@ li{
 
 .grey-divider{
   background-color: #E8F0F5;
-  height: 10em;
+  padding: 2em 1em;
 
+}
+
+.grey-words{
+  margin: 0;
+  color: #314156;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .lower-backing{
@@ -142,13 +166,23 @@ li{
 }
 
 .feature-name{
-  background-color: #C7D2D8;
-  height: 1.25em;
+  display: block;
+  margin: .5em;
+  color: #426277;
+  background-color: white;
+  font-size: 1.25em;
+  font-weight: normal;
+  text-align: center;
 }
 
 .feature-text{
-  background-color: #C7D2D8;
-  height: 2.5em;
+  display: block;
+  margin: .5em;
+  color: #4B4B4C;
+  background-color: white;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-align: center;
 }
 
 .black-boot{
