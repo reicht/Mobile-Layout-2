@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<title>Dat Wordpress Yo</title>
 	</head>
 	<body>
 		<section class="top-bar">
-			<img class="top-logo">
-			<p class="top-name">
+			<i class="fa fa-wordpress top-bar-logo"></i>
+			<p class="top-bar-name">
 				Wordpress<span style="color: #98CEE4;
 				padding: 0; margin: 0;">.com</span>
 			</p>
@@ -24,31 +25,51 @@
 				Wordpress.com is the best
 				place for your personal blog or business site.
 			</h2>
-			<div class="create-button" style="border-style: solid;
-			border-width:.5em; border-color: #212934;">
-			<p class="cw-button">Create Website</p>
+			<div class="gradient-border">
+				<div class="create-button">
+					<p class="cw-button">
+						Create Website
+					</p>
+				</div>
 			</div>
-			<div class="toggle-arrow">
-			</div>
+			<i class="fa fa-chevron-down toggle-arrow"></i>
 			<div class="icon-holder">
-				<div class="icon-text">
+				<div class="icon-text-box">
+					<h3 class="icon-title">
+						Ready for mobile
+					</h3>
+					<p class="icon-text">
+						Download the iOS or Android app
+					</p>
 				</div>
 				<div class="icon-padder">
-					<img class="icon-held">
+					<i class="fa fa-tablet top-icon"></i>
 				</div>
 			</div>
 			<div class="icon-holder">
-				<div class="icon-text">
+				<div class="icon-text-box">
+					<h3 class="icon-title">
+						Freshly Pressed
+					</h3>
+					<p class="icon-text">
+						Strong voices from around the world
+					</p>
 				</div>
 				<div class="icon-padder">
-					<img class="icon-held">
+					<i class="fa fa-newspaper-o top-icon"></i>
 				</div>
 			</div>
 			<div class="icon-holder">
-				<div class="icon-text">
+				<div class="icon-text-box">
+					<h3 class="icon-title">
+						Hundreds of designs
+					</h3>
+					<p class="icon-text">
+						Find your unique style
+					</p>
 				</div>
 				<div class="icon-padder">
-					<img class="icon-held">
+					<i class="fa fa-paint-brush top-icon"></i>
 				</div>
 			</div>
     </section>
@@ -61,70 +82,82 @@
     </section>
     <section class="lower-backing">
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-lightbulb-o feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					Easy to use
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					WordPress.com lets you create beautiful and
 					powerful websites and blogs.
-				</h6>
+				</p>
 			</div>
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-cloud feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					Your own domain name
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					We'll setup and configure your custom domain
 					so that you can start using it in seconds.
-				</h6>
+				</p>
 			</div>
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-code feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					Search engine and SEO friendly
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					WordPress.com is optimized for SEO and getting
 					your site in front of searchers on Google, Bing,
 					Yahoo and others.
-				</h6>
+				</p>
 			</div>
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-comments feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					The best support
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					Our Happiness Engineers work night and day through
 					live chat, email, support pages and forums to answer
 					any questions you have.
-				</h6>
+				</p>
 			</div>
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-gift feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					Premium plans
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					Our premium plans give you more control with additional
 					customization options. They all come with free trials.
-				</h6>
+				</p>
 			</div>
 			<div class="feature-boxes">
-				<img class="feature-icon">
+				<div class="feature-icon-border">
+					<i class="fa fa-globe feature-icon"></i>
+				</div>
 				<h5 class="feature-name">
 					Millions of users
 				</h5>
-				<h6 class="feature-text">
+				<p class="feature-text">
 					We welcome 50,000 new sites every day. From small
 					business sites, artist portfolios and blogs, to giant
 					media organizations like TIME and CNN.
-				</h6>
+				</p>
 			</div>
     </section>
-    <section class="grey-divider" style=" padding: 1em 2em 0em 2em;">
+    <section class="grey-divider">
 			<p class="grey-words">
 				WordPress powers 23% of the internet
 			</p>
@@ -132,44 +165,41 @@
 				<p class="cw-button">Create Website</p>
 			</div>
     </section>
-    <section class="black-boot">
+    <footer class="black-boot">
 			<ul class="bottom-text">
 				<li>
-					<a>Apps</a>
+					<a href="#">Apps</a>
 				</li>
 				<li>
-					<a>Themes</a>
+					<a href="#">Themes</a>
 				</li>
 				<li>
-					<a>Support</a>
+					<a href="#">Support</a>
 				</li>
 				<li>
-					<a>Blog</a>
+					<a href="#">Blog</a>
 				</li>
 				<li>
-					<a>VIP</a>
+					<a href="#">VIP</a>
 				</li>
 				<li>
-					<a>Discover</a>
+					<a href="#">Discover</a>
 				</li>
 				<li>
-					<a>About Us</a>
-				</li>
-
-			</ul>
-			<ul class="bottom-text">
-				<li>
-					<a>Terms of Service</a>
+					<a href="#">About Us</a>
 				</li>
 				<li>
-					<a>Privacy</a>
+					<a href="#">Terms of Service</a>
 				</li>
 				<li>
-					<a>Language</a>
+					<a href="#">Privacy</a>
+				</li>
+				<li>
+					<a href="#">Language</a>
 				</li>
 			</ul>
 			<div class="bottom-image">
 			</div>
-    </section>
+    </footer>
 	</body>
 </html>
