@@ -56,23 +56,25 @@ a {
   height: 3em;
 }
 
+.logo-link {
+  display: block;
+}
+
 .top-bar-logo {
   display: block;
   float: left;
   font-size: 2.5em;
-  width: 2em;
-  margin: .125em;
+  margin: .125em 0em .125em .125em;
   color: white;
 }
 
 .top-bar-name {
   display: block;
   float: left;
-  height: 1em;
   background-color: #118BC0;
-  margin: .5em .5em .5em .5em;
-  padding: .5em;
+  margin: 0 .5em .5em .5em;
   color: white;
+  line-height: 3em;
 }
 
 .bluetext {
@@ -82,13 +84,12 @@ a {
 
 .login-button {
   float: right;
-  height: 2em;
   width: 4em;
   margin: 0 0 0 0;
   background-color: #0070A4;
   color: white;
   text-align: center;
-  padding: 1em;
+  padding: 1.5em 1em .9em 1em;
   font-size: .75em;
 
 }
@@ -201,7 +202,7 @@ a {
   padding: 1em 1em 1em 1em;
   margin: 1em 1em 2em 1em;
   max-width: 20em;
-  min-height: 15em;
+  min-height: 8em;
 }
 
 .feature-icon-border {
@@ -217,6 +218,10 @@ a {
   font-size: 2em;
   color: #547D98;
   text-align: center;
+}
+
+.off-center {
+  padding: 1em 1.2em 1em 0.8em;
 }
 
 .feature-name {
@@ -241,8 +246,9 @@ a {
 
 .black-boot {
   background-color: black;
-  padding: 1em;
+  padding: 1em 0 1em 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .bottom-text {
@@ -252,14 +258,7 @@ a {
   margin: 2em auto;
   font-size: 10px;
   text-align: center;
-
-}
-
-.mover {
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .bottom-image-holder {
