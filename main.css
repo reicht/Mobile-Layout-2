@@ -1,5 +1,9 @@
 body {
   line-height: 1.6;
+  background-image: url("https://s1.wp.com/home.logged-out/images/pic-crowd-mobile-2x.webp?2");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 section {
@@ -43,6 +47,7 @@ a {
 .main-backing {
   background-image: url("https://s1.wp.com/home.logged-out/images/pic-crowd-mobile-2x.webp?2");
   padding: 3em 2em 2em 2em;
+  background-size: 100%;
 }
 
 .top-bar {
@@ -185,7 +190,7 @@ a {
 }
 
 .lower-backing {
-  background-color: #D1D3D7;
+  background-color: rgba(209,211,215,0.5);
   padding: .5em .5em;
   overflow: hidden;
 }
