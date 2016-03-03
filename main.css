@@ -1,20 +1,20 @@
-body{
+body {
   line-height: 1.6;
 }
 
-section{
-  background-color: red;
-}
-
-div{
-  margin: .5em auto .5em auto;
-}
-
-footer{
+section {
 
 }
 
-h1{
+div {
+  
+}
+
+footer {
+
+}
+
+h1 {
   color: white;
   font-size: 25px;
   font-weight: normal;
@@ -22,7 +22,7 @@ h1{
   text-align: center;
 }
 
-h2{
+h2 {
   color: white;
   font-size: 16px;
   font-weight: normal;
@@ -30,29 +30,29 @@ h2{
   text-align: center;
 }
 
-li{
+li {
   display: inline-block;
   margin: .5em;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
 
-.main-backing{
+.main-backing {
   background-image: url("https://s1.wp.com/home.logged-out/images/pic-crowd-mobile-2x.webp?2");
   padding: 3em 2em 2em 2em;
 }
 
-.top-bar{
+.top-bar {
   background-color: #1E8CBE;
   margin: 0em;
   width: 100%;
   height: 3em;
 }
 
-.top-bar-logo{
+.top-bar-logo {
   display: block;
   float: left;
   font-size: 2.5em;
@@ -61,7 +61,7 @@ a{
   color: white;
 }
 
-.top-bar-name{
+.top-bar-name {
   display: block;
   float: left;
   height: 1em;
@@ -71,7 +71,13 @@ a{
   color: white;
 }
 
-.login-button{
+.bluetext {
+  color: #98CEE4;
+  padding: 0;
+  margin: 0;
+}
+
+.login-button {
   float: right;
   height: 2em;
   width: 4em;
@@ -84,7 +90,7 @@ a{
 
 }
 
-.gradient-border{
+.gradient-border {
   background-color: rgba(0,0,0,.4);;
   height: 3em;
   margin: 1em auto 1em auto;
@@ -93,25 +99,25 @@ a{
 
 }
 
-.create-button{
+.create-button {
   background-color: #1E8CBE;
   width: 10em;
-  height: 1em;
+  height: 1.75em;
   margin: auto auto auto auto;
   text-align: center;
-  padding: 1em;
+  padding: .75em;
 
 }
 
 
-.cw-button{
+.cw-button {
   color: white;
   font-size: 1.3em;
   margin: 0;
 }
 
 
-.toggle-arrow{
+.toggle-arrow {
   display: block;
   color: white;
   width: 2em;
@@ -119,34 +125,39 @@ a{
 
 }
 
-.icon-holder{
+.icon-shelf {
+  overflow: hidden;
+}
+
+.icon-holder {
 
   height: 4em;
   width: 18em;
+  float: left;
 }
 
-.icon-padder{
+.icon-padder {
   margin: 0 0 0 0;
   height: 3em;
   width: 4em;
   padding: .75em 1em 0 0;
 }
 
-.top-icon{
+.top-icon {
   display: block;
   font-size: 3em;
   color: white;
   text-align: center;
 }
 
-.icon-text-box{
+.icon-text-box {
   float: right;
   height: 3.5em;
   width: 14em;
   margin: 0 .20em 0 0;
 }
 
-.icon-title{
+.icon-title {
   display: block;
   color: white;
   margin: .75em 0 0 .5em;
@@ -155,33 +166,33 @@ a{
 
 }
 
-.icon-text{
+.icon-text {
   display: block;
   color: white;
   font-size:.8em;
   margin: .25em 0 0 .5em;
 }
 
-.grey-divider{
+.grey-divider {
   background-color: #E8F0F5;
   padding: 2em 2em;
 
 }
 
-.grey-words{
+.grey-words {
   margin: 0;
   color: #314156;
   font-size: 1.5em;
   text-align: center;
 }
 
-.lower-backing{
+.lower-backing {
   background-color: #D1D3D7;
   padding: .5em .5em;
   overflow: hidden;
 }
 
-.feature-boxes{
+.feature-boxes {
   float: left;
   background-color: white;
   padding: 1em 1em 1em 1em;
@@ -190,20 +201,20 @@ a{
   min-height: 15em;
 }
 
-.feature-icon-border{
+.feature-icon-border {
   border-radius: 50%;
   padding: 1em;
-  width: 2em;
+  width: 1.75em;
   background-color: #C7D2D8;
 }
 
-.feature-icon{
+.feature-icon {
   display: block;
   font-size: 2em;
   color: #547D98;
 }
 
-.feature-name{
+.feature-name {
   display: block;
   margin: .5em;
   color: #426277;
@@ -213,7 +224,7 @@ a{
   text-align: center;
 }
 
-.feature-text{
+.feature-text {
   display: block;
   margin: .5em;
   color: #4B4B4C;
@@ -223,26 +234,37 @@ a{
   text-align: center;
 }
 
-.black-boot{
+.black-boot {
   background-color: black;
   padding: 1em;
   width: 100%;
 }
 
-.bottom-text{
+.bottom-text {
   color: white;
   display: block;
   height: 1em;
-  margin: .5em auto;
+  margin: 2em auto;
   font-size: 10px;
   text-align: center;
 
 }
 
-.bottom-image{
+.mover {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin: 0 auto;
+}
+
+.bottom-image-holder {
+  width: 8.2em;
+  margin: 3em auto;
+}
+
+.bottom-image {
   display: inline-block;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjciIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMjcgMTEiPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik00Ni4zNDQuNjk0Yy0zLjE3IDAtNS4yMjMgMi4yNDMtNS4yMjMgNC42NnYuMjk1YzAgMi4zNzUgMi4wNTUgNC42NTcgNS4yMjQgNC42NTcgMy4xODIgMCA1LjIzNi0yLjI4IDUuMjM2LTQuNjU4di0uMjk2YzAtMi40MTctMi4wNTQtNC42Ni01LjIzNi00LjY2em0zLjU0NCA0LjljMCAxLjczNC0xLjI2MyAzLjMwNS0zLjU0NCAzLjMwNS0yLjI4MiAwLTMuNTMtMS41Ny0zLjUzLTMuMzA1VjUuMzhjMC0xLjczIDEuMjQ4LTMuMjc0IDMuNTMtMy4yNzQgMi4yOCAwIDMuNTQ0IDEuNTQzIDMuNTQ0IDMuMjc0di4yMTV6TTYuMDUyIDEuMDE4TDEuMjIgOS45NmgxLjc3TDQuMTMzIDcuNzRoNS4yNWwxLjE4MiAyLjIxN2gxLjhMNy40NSAxLjAxNkg2LjA1ek00Ljc2NCA2LjUyTDYuNzEgMi43NjNsMi4wMTQgMy43NmgtMy45NnptMTguMzQtLjI1NGMwIDEuNjUyLS44NzMgMi42MzMtMi45OTQgMi42MzMtMi4wNjcgMC0zLjE1NS0uOTgtMy4xNTUtMi42MzR2LTUuMjVIMTUuMjlWNi4yNGMwIDIuMzI0IDEuNDkgNC4wNjggNC43IDQuMDY4IDMuMzcgMCA0Ljc5Mi0xLjg1MyA0Ljc5Mi00LjA2OHYtNS4yMmgtMS42OHY1LjI0OHptNS40MzctMy44NTNoMy45MDhWOS45NmgxLjY3OFYyLjQxMmgzLjkwN1YxLjAxNkgyOC41NHYxLjM5N3ptMzMuODg3IDQuNzRsLS40MTUuNzUtLjQxNy0uNzUtMy41My02LjEzNmgtMi4zMjJWOS45NmgxLjYzN1YyLjg4bC40NDMuNzc4IDMuNzA2IDYuMjk4aC44MTdsMy43NDctNi4yOTguNDQzLS43NzhWOS45NmgxLjY3OFYxLjAxNmgtMi4yOTdsLTMuNDkgNi4xMzV6TTc2LjM5IDEuMDE2TDcxLjU1OCA5Ljk2aDEuNzczbDEuMTQtMi4yMThoNS4yNWwxLjE4MyAyLjIxN2gxLjhMNzcuNzkgMS4wMTZoLTEuNHpNNzUuMTAzIDYuNTJsMS45NDctMy43NTggMi4wMTMgMy43NmgtMy45NnptOC43OC00LjEwN2gzLjkwN1Y5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDkydjEuMzk3em0xMi4zMTMgMGgzLjkwNlY5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDl2MS4zOTd6bTEzLjYyNS0uNTV2OC4wOThoMS42NTJWMS4wMmgtLjcxYzAgLjQ4LS4yNy44NDYtLjk0Mi44NDZ6TTEyMS4xNTIgOC45Yy0yLjQ5NiAwLTMuODU0LTEuNTg0LTMuODU0LTMuMjc1di0uMTc1YzAtMS43MDUgMS4zNDUtMy4zNDIgMy43My0zLjM0MiAxLjYgMCAyLjc4LjY5NiAzLjU4OCAxLjQzNmwxLjA0Ny0xLjA2Yy0uOTI3LS45OTUtMi42NDYtMS43ODgtNC41NC0xLjc4OC0zLjI3MyAwLTUuNTE4IDIuMjgyLTUuNTE4IDQuN3YuMjk2YzAgMi40MTYgMi4wNTYgNC42MTcgNS40MzggNC42MTcgMS45NzYgMCAzLjY0LS44MTcgNC42Mi0xLjc4NWwtMS4wMS0xLjA2Yy0uNzc0LjcyNC0yLjAxIDEuNDM2LTMuNSAxLjQzNnpNNDcuNDUgMy44MDZjLS4zMDMtLjE5Ni0uNzA3LS4xMDYtLjkwNC4xOTdsLTEuNTMgMi4zNjhjLS4xOTcuMzEtLjExLjcxNC4xOS45MS4zMDMuMTk0LjcwNy4xMDUuOTA0LS4xOThsMS41My0yLjM3MmMuMTk3LS4zMDMuMTEyLS43MS0uMTktLjkwNHoiLz48L3N2Zz4=) no-repeat 5px 7px;
   padding: 1em;
   min-width: 8.2em;
-  margin: 5em 10em 1em auto;
 }
